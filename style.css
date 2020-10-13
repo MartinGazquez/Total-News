@@ -83,3 +83,13 @@ footer {
 .image-follow {
     margin-left: 360px;
 }
+.h1-index{
+    margin-left: 0;
+}
+.inline {
+display: inline;
+}
+.inline img{
+margin-left: 300;
+float: right;
+}
