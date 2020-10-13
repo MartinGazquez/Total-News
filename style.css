@@ -1,0 +1,75 @@
+@font-face {
+    font-family: nyt-imperial;
+    src: url(./font/nyt-imperial-bold.woff.ttf);
+  }
+  body {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      line-height: 30px;
+  }
+h1 {
+    max-width: none;
+    margin-left: 320px;
+    margin-right: auto;
+    position: relative;
+    width: 660px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    padding: 0;
+    border: 0;
+}
+h2 {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    font-style: normal;
+    font-stretch: normal;
+    margin-bottom: 1.875rem;
+}
+.center {
+    display:block;
+    margin:auto;
+}
+.body-article {
+    width: 600px;
+     
+}
+.image-article {
+    width: 900px;
+    display: block;
+    margin: auto;
+}
+.image-follow {
+    margin-left: 280px;
+}
+figcaption {
+    padding: 15px;
+    margin-left: 160px;
+    width: 840px;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font: inherit;
+}
+figcaption span {
+color: lightgrey
+}
+figure .image-in-section {
+    width: 900px;
+    display: block;
+    margin: auto;
+    margin-left: -110px;
+}
+.figcaption-in-section {
+    margin-left: -120px;
+}
+.image-writer {
+    width: 50px;
+}
